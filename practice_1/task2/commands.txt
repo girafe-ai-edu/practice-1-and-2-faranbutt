@@ -1,0 +1,4 @@
+python -m venv .venv --prompt "my_butt"
+source .venv/bin/activate
+pip install geopandas seaborn nltk
+pip install --upgrade https://s3-us-west-2.amazonaws.com/xgboost-nightly-builds/release_2.1.0/xgboost-2.1.1%2Be36d361674cb1b8fd599da891e1e91a427bb4159-py3-none-macosx_10_15_x86_64.macosx_11_0_x86_64.macosx_12_0_x86_64.whl
